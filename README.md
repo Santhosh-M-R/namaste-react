@@ -19,3 +19,36 @@
 - HTTPs
 - Tree shaking
 - Different dev and prod bundles
+
+- Header
+- -- logo
+- -- Nav items
+-
+- Body
+- -- search
+- -- restarant container
+- --- restarantcard
+-          - img
+-          - name of res, star, cuisine, delivery time
+- Footer
+- -- Copyright
+- -- Links
+- -- Address
+- -- Contact
+
+Two types of Export/Import
+
+- Default Export/Import
+  export default Component;
+  import Component from "path";
+
+- Named Export/Import
+  export const Compponent;
+  import {Component} from "path";
+
+# React hooks
+
+(Normal JS utility functions)
+
+- useState() - superpowerful state variable in react
+- useEffect()
